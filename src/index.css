@@ -53,8 +53,8 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
 
 .container-form {
   border-top: 1px;
-  padding: 10px 0 1px 0px;
-  padding-bottom: 280px;
+  padding: 8px 0 1px 0;
+  padding-bottom: 35rem;
   
 }
 

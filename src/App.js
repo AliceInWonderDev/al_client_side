@@ -27,8 +27,9 @@ class App extends React.Component {
           error : false 
         })
       }else{
+        console.log("Your API free trial is over")
         this.setState({ 
-          error : true
+          error : true 
         })
       }      
     })
