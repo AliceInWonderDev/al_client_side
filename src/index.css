@@ -9,11 +9,15 @@ body {
   width: 100%;
   height: 100%;
 }
+
 nav .brand-logo {
   display: block;
+  margin: auto;
   text-align: center;
   position: relative;
+  font-size: 25px;
 }
+
 .input-field label {
   color: #000;
   
@@ -35,46 +39,55 @@ input[type=text]:not(.browser-default) {
   text-align: center;
   
 }
+
 input[type=text]:not(.browser-default):focus:not([readonly]) {
   border-bottom: 1px solid #000;
   -webkit-box-shadow: 0 1px 0 0 #000;
   box-shadow: 0 1px 0 0 #000;
   background: linear-gradient(to top, #2ebf91, #8360c3)
 }
+
 input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   color: #000;
 }
 
 .container-form {
   border-top: 1px;
-  padding: 8rem 0 1px 0;
+  padding: 10px 0 1px 0px;
   padding-bottom: 280px;
   
 }
+
 .buscador i {
   width: 100%;
 }
+
 .error {
   padding: 1rem!important;
   color:#000;
   margin-top: 3rem;
   text-align: center;
 }
+
 .card-panel h2 {
   font-size: 1.6rem;
   text-align: center;
 }
+
 .card-panel p {
   text-align: center;
   font-size: 1.4rem;
 }
+
 .temperatura {
   font-size: 4rem!important
 }
+
 .temperatura span {
   font-size: 2rem!important;
   vertical-align: super;
 }
+
 .btn-block {
   display: block!important;
 }

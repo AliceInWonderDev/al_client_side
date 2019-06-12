@@ -5,8 +5,7 @@ function Forecast({ response }){
     return(
         <div className="card-panel white col s12">
             <div className="black-text">
-                    
-                <h2>The weather in your city is:</h2>
+                <h2>The weather in the selected city is:</h2>
                     <p>
                         <h3> {response.temperature} F</h3>
                     </p>
@@ -14,7 +13,7 @@ function Forecast({ response }){
                     <p>
                         {response.humidity * 100} %
                     </p>
-                <h2>Local time:</h2>
+                <h2>You're consulting this on:</h2>
                     <p>
                         <TimeConverter 
                             response = {response}
@@ -23,7 +22,6 @@ function Forecast({ response }){
             </div>
         </div>
     )
-
 }
 
 export default Forecast;
