@@ -12,7 +12,7 @@ class App extends React.Component {
     super();
       this.state = {
         response: false,
-        endpoint: "http://127.0.0.1:3001",
+        endpoint: "https://al-server-side.herokuapp.com/",
         error : true
       };
   }
