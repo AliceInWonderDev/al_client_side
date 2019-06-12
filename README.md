@@ -23,3 +23,21 @@ Esta es una aplicación para que tú veas el clima en las principales ciudades d
 ## Aplicación en su versión de escritorio
 
 ![Aplicación en versión de escritorio](https://raw.githubusercontent.com/AliceInWonderDev/al_client_side/master/src/icons/app%20photos/screen.png)
+
+
+## Información adicional: 
+
+Toda la información dl clima que se muestra es a través de Dark Sky API
+
+web: https://darksky.net/forecast/40.7127,-74.0059/us12/en
+
+Se conecta con la aplicación del Cliente a través de Socket.io y express
+
+Web: 
+https://socket.io/
+
+El deploy está hecho en Heroku
+Web: https://heroku.com
+
+Más información, GitHub: https://github.com/AliceInWonderDev
+
