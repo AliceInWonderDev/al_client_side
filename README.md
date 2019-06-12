@@ -16,5 +16,10 @@ Esta es una aplicación para que tú veas el clima en las principales ciudades d
 * Humedad
 * Hora Local y fecha de la consulta
 
+## Aplicación en su versión móvil
 
+![Aplicación en versión móvil](https://raw.githubusercontent.com/AliceInWonderDev/al_client_side/master/src/icons/app%20photos/iphone.png)
 
+## Aplicación en su versión de escritorio
+
+![Aplicación en versión de escritorio](https://raw.githubusercontent.com/AliceInWonderDev/al_client_side/master/src/icons/app%20photos/screen.png)
