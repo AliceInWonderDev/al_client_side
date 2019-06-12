@@ -1,5 +1,3 @@
-import React from 'react';
-
 
 const TimeConverter = ({response}) => {
     let newDate = new Date(response.time * 1000); //por mil para que sea en segundos y no milisegundos
@@ -15,8 +13,3 @@ const TimeConverter = ({response}) => {
 }
 
 export default TimeConverter;
-
-
-
-// function TimeConverter(UNIX_timestamp, {response}){
-    
