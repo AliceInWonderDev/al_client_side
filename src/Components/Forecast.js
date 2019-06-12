@@ -6,15 +6,15 @@ function Forecast({ response }){
         <div className="card-panel white col s12">
             <div className="black-text">
                     
-                <h2>El clima de la Ciudad es:</h2>
+                <h2>The weather in your city is:</h2>
                     <p>
                         <h3> {response.temperature} F</h3>
                     </p>
-                <h2>Su Humedad es:</h2>
+                <h2>The Humidity is:</h2>
                     <p>
-                        {response.humidity}
+                        {response.humidity * 100} %
                     </p>
-                <h2>La hora actual es:</h2>
+                <h2>Local time:</h2>
                     <p>
                         <TimeConverter 
                             response = {response}
